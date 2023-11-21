@@ -7,11 +7,11 @@ Table de matiere:
  2.1 Besoins Fonctionnels  
  2.2 Besoins non Fonctionnels  
 3. Modélisation du besoin  
-  3.1 Principaux acteurs de l’application  
-  3.2 Diagramme des cas d’utilisation  
+  3.1 Principaux acteurs de l’application   
+  3.2 Diagramme des cas d’utilisation   
 4 Pilotage du Projet avec Scrum  
   4.1 Équipe et Rôles  
-  4.2 Le Backlog du produit  
+  4.2 Le Backlog du produit
 5 Realisation du projet  
  5.1 Technologies utilisées  
   5.1.1 HTML/CSS  
