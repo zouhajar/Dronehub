@@ -1,3 +1,3 @@
 # Dronehub
-Projet Réalisé par :Zouggari Hajar,Sadki Rim
+Projet Réalisé par :Zouggari Hajar,Sadki Rim  
 Dans le cadre de notre formation en développement web avec J2E, nous avons entrepris la réalisation d'un projet lié à notre spécialité 'Systèmes Embarqués et Services Numériques'. Notre choix s'est porté sur la création d'un site dédié aux drones. Ce site offrira une documentation détaillée, des tutoriels, une section FAQ ainsi qu'une liste exhaustive des composants pour la conception et l'assemblage des drones. Nous prévoyons également de fournir des vidéos et des guides complets pour faciliter la réalisation d'un drone avec Arduino, couvrant toutes les étapes, de l'assemblage à l'utilisation, afin de garantir le succès de ce projet.
