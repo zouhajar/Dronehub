@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dronehub -- Website About Drones</title>
+    <link rel="stylesheet" href="home1.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <form id="languageForm">
+                <label for="languageSelect">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">En</option>
+                    <option value="fr">Fr</option>
+                    <option value="es">Es</option>
+                </select>
+            </form>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html" id="homeLink">HOME</a></li>
+                        <li><a href="#" id="aboutLink">ABOUT</a></li>
+                        <li><a href="components.html" id="compoLink">COMPONENTS</a></li>
+                        <li><a href="#" id="blogLink">BLOG</a></li>
+                        <li><a href="login.html" id="loginLink">LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1 id="mainTitle">World's Best Drone Website</h1>
+            <p id="mainSubtitle">Making Drones is now one of the easiest things in the world. Learn the basics, follow tutorials, explore Arduino, and you are good to go.</p>
+            <a href="signup.html" class="hero-btn" id="signUpBtn">Sign Up To Know More</a>
+        </div>
+    </section>
+    
+    <section class="course">
+        <h1 >What We Offer</h1>
+        <p >We provide a diverse range of tutorials, comprehensive user guides, and informative FAQs</p>
+       <div class="row">
+    <div class="course-col">
+    <a href="userguide.html" id="tit">User Guide</a>
+        
+        <p >Our user guides are meticulously crafted to provide step-by-step instructions and detailed explanations, ensuring an easy and insightful learning experience.</p>
+    </div>
+    <div class="course-col">
+        <a href="tuto.html" id="tit">Tutorials</a>
+            
+            <p >Our tutorials are designed to cater to various skill levels, providing hands-on guidance, tips, and tricks to help you master the subject matter effectively</p>
+        </a>
+    </div>
+    <div class="course-col">
+        <a href="faq.html" id="tit">FAQ</a>
+            <p >Our FAQs cover a wide spectrum of commonly asked questions, offering concise and helpful answers to assist in addressing your queries efficiently.</p>
+        </a>
+    </div>
+</div>
+       
+    </section>
+    
+    <script>
+        // Fonction pour changer la langue de toute la page
+        function setLanguage(lang) {
+            console.log('Chosen language:', lang);
+            const translations = {
+                en: {
+                    homeLink: 'HOME',
+                    aboutLink: 'ABOUT',
+                    componentsLink: 'COMPONENTS',
+                    blogLink: 'BLOG',
+                    loginLink: 'LOGIN',
+                    mainTitle: 'World\'s Best Drone Website',
+                    mainSubtitle: 'Making Drones is now one of the easiest things in the world. Learn the basics, follow tutorials, explore Arduino, and you are good to go.',
+                    signUpBtn: 'Sign Up To Know More',
+                    offerTitle: 'What We Offer',
+                    offerDescription: 'We provide a diverse range of tutorials, comprehensive user guides, and informative FAQs',
+                    userGuideTitle: 'User Guide',
+                    userGuideDescription: 'Our user guides are meticulously crafted to provide step-by-step instructions and detailed explanations, ensuring an easy and insightful learning experience.',
+                    tutorialsTitle: 'Tutorials',
+                    tutorialsDescription: 'Our tutorials are designed to cater to various skill levels, providing hands-on guidance, tips, and tricks to help you master the subject matter effectively',
+                    faqTitle: 'FAQ',
+                    faqDescription: 'Our FAQs cover a wide spectrum of commonly asked questions, offering concise and helpful answers to assist in addressing your queries efficiently.'
+                },
+                fr: {
+                    homeLink: 'ACCUEIL',
+                    aboutLink: 'À PROPOS',
+                    componentsLink: 'COMPOSANTS',
+                    blogLink: 'BLOGUE',
+                    loginLink: 'CONNEXION',
+                    mainTitle: 'Meilleur site web de drones au monde',
+                    mainSubtitle: 'Fabriquer des drones est maintenant l\'une des choses les plus faciles au monde. Apprenez les bases, suivez des tutoriels, explorez Arduino et vous êtes prêt à partir.',
+                    signUpBtn: 'Inscrivez-vous pour en savoir plus',
+                    offerTitle: 'Ce que nous offrons',
+                    offerDescription: 'Nous proposons une gamme diversifiée de tutoriels, de guides utilisateur complets et de FAQ informatives',
+                    userGuideTitle: 'Guide de l\'utilisateur',
+                    userGuideDescription: 'Nos guides utilisateur sont méticuleusement conçus pour fournir des instructions étape par étape et des explications détaillées, assurant une expérience d\'apprentissage facile et instructive.',
+                    tutorialsTitle: 'Tutoriels',
+                    tutorialsDescription: 'Nos tutoriels sont conçus pour répondre à différents niveaux de compétence, fournissant des conseils pratiques, des astuces et des astuces pour vous aider à maîtriser efficacement la matière.',
+                    faqTitle: 'FAQ',
+                    faqDescription: 'Nos FAQ couvrent un large éventail de questions fréquemment posées, offrant des réponses concises et utiles pour vous aider à répondre efficacement à vos questions.'
+                },
+                es: {
+                    homeLink: 'INICIO',
+                    aboutLink: 'SOBRE NOSOTROS',
+                    componentsLink: 'COMPONENTES',
+                    blogLink: 'BLOG',
+                    loginLink: 'INICIAR SESIÓN',
+                    mainTitle: 'Mejor sitio web de drones del mundo',
+                    mainSubtitle: 'Hacer drones es ahora una de las cosas más fáciles del mundo. Aprende lo básico, sigue tutoriales, explora Arduino y estarás listo para empezar.',
+                    signUpBtn: 'Regístrate para saber más',
+                    offerTitle: 'Lo que ofrecemos',
+                    offerDescription: 'Ofrecemos una amplia gama de tutoriales, guías completas para el usuario y FAQs informativas',
+                    userGuideTitle: 'Guía del usuario',
+                    userGuideDescription: 'Nuestras guías de usuario están meticulosamente elaboradas para proporcionar instrucciones paso a paso y explicaciones detalladas, garantizando una experiencia de aprendizaje fácil y perspicaz.',
+                    tutorialsTitle: 'Tutoriales',
+                    tutorialsDescription: 'Nuestros tutoriales están diseñados para satisfacer varios niveles de habilidad, brindando orientación práctica, consejos y trucos para ayudarte a dominar la materia de manera efectiva.',
+                    faqTitle: 'FAQ',
+                    faqDescription: 'Nuestras FAQ abarcan una amplia gama de preguntas frecuentes, ofreciendo respuestas concisas y útiles para ayudarte a abordar tus preguntas de manera eficiente.'
+                }
+            };
+
+            const elements = document.querySelectorAll('[id]');
+            
+            elements.forEach(element => {
+                const translationKey = element.id;
+                const translation = translations[lang][translationKey];
+                if (translation) {
+                    element.textContent = translation;
+                }
+            });
+        }
+
+        // Initial language setup
+        setLanguage('en');
+
+        // Attacher l'événement onchange au sélecteur de langue
+        const languageSelect = document.getElementById('languageSelect');
+        languageSelect.addEventListener('change', function() {
+            setLanguage(this.value);
+        });
+    </script>
+</body>
+</html>
