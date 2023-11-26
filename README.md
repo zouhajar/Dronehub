@@ -1,4 +1,4 @@
-# Dronehub
+[rapportdronehub.pdf](https://github.com/RimSadki/Dronehub/files/13467689/rapportdronehub.pdf)# Dronehub
 Projet Réalisé par :Zouggari Hajar,Sadki Rim  
 Dans le cadre de notre formation en développement web avec J2E, nous avons entrepris la réalisation d'un projet lié à notre spécialité 'Systèmes Embarqués et Services Numériques'. Notre choix s'est porté sur la création d'un site dédié aux drones. Ce site offrira une documentation détaillée, des tutoriels, une section FAQ ainsi qu'une liste exhaustive des composants pour la conception et l'assemblage des drones. Nous prévoyons également de fournir des vidéos et des guides complets pour faciliter la réalisation d'un drone avec Arduino, couvrant toutes les étapes, de l'assemblage à l'utilisation, afin de garantir le succès de ce projet.  
 Table de matiere:    
@@ -8,7 +8,8 @@ Table de matiere:
  2.2 Besoins non Fonctionnels  
 3. Modélisation du besoin  
   3.1 Principaux acteurs de l’application   
-  3.2 Diagramme des cas d’utilisation   
+  3.2 Diagramme des cas d’utilisation  
+
 4 Pilotage du Projet avec Scrum  
   4.1 Équipe et Rôles  
   4.2 Le Backlog du produit
